@@ -1,9 +1,11 @@
 # Homological Perspective on Data
 
-+ **[Organizational document.](https://karhunenloeve.github.io/STDA/tda_seminar.pdf)**
-+ **[Slides of initial lecture.](https://karhunenloeve.github.io/STDA/FAU-Beamer.pdf)**
-+ **[Introduction to persistent homology.](https://karhunenloeve.github.io/STDA/main-pershom.pdf)**
-+ **[References for further reading.](https://gist.github.com/karhunenloeve/bd85b3527e339ab9d9b4e83aa5e189d5)**
++ **[Organizational document.](https://karhunenloeve.github.io/TopoData/tda_seminar.pdf)**
++ **[Slides of initial lecture.](https://karhunenloeve.github.io/TopoData/FAU-Beamer.pdf)**
++ **[Introduction to persistent homology.](https://karhunenloeve.github.io/TopoData/main-pershom.pdf)**
++ **[References for further reading.](https://gist.github.com/karhunenloeve/68d92dfeabc8901ddb06c31b76d5971d)**
++ **[Brief survey on persistent homology.](https://gist.github.com/karhunenloeve/580472f07add7824d92de4a8e37566b9)**
++ **[Topological data analysis in machine learning.](https://gist.github.com/karhunenloeve/b92a2d146bc4c6edef51b5d7ee5d6d06)**
 
 Topological data analysis describes a field in computational topology that uses methods of algebraic topology to investigate sets of points using computer algebra. A particularly prominent tool is persistent homology.
 Algebraic topology describes, characterises and distinguishes topological spaces. In this seminar we concentrate on tools for the calculation of homology groups on a filtration of the space. A filtration is a set of subsets up to a given space that induce an exact sequence of homomorphisms.

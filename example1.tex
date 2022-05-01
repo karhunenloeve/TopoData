@@ -1,0 +1,26 @@
+\centering
+\begin{tikzpicture}[scale=1.5]
+\draw [postaction={stipple={amplitude=0.125cm}}] 
+  (0,0) [rotate=45]  circle [radius=1];
+\path [postaction={stipple={amplitude=0.25cm, stipple density=.25}},
+  postaction={stipple={amplitude=0.25cm, stipple density=.1}}]
+  (135:1) arc (135:315:1);
+\end{tikzpicture}
+\hspace{2cm}
+\begin{tikzpicture}[x=1.5em,y=1.5em]
+\draw [postaction={stipple={amplitude=0.5cm}},
+      postaction={stipple={amplitude=0.25cm}}] 
+  (2,1) ..controls ++(135:1) and ++(90:1) .. 
+  (0,0) .. controls ++(270:1) and ++(180:1.5) .. 
+  (2,-2) .. controls ++(0:1.5) and ++(270:2) .. 
+  (5,1) .. controls ++(90:2) and ++(75:1) .. 
+  (2,1) .. controls ++(255:1/4) and ++(0:1/2) .. (3/2,0);
+\draw [postaction={stipple={amplitude=0.125cm, stipple density=0.05}},
+  postaction={stipple={amplitude=0.5cm, reverse path}},
+  postaction={stipple={amplitude=0.25cm, reverse path}}] 
+  (3,0) .. controls ++(135:1) and ++(90:1) .. (4,1);
+\end{tikzpicture}
+\\[0.5cm]
+\hspace{2cm}
+A $2$-sphere.\hspace{2cm}
+A 2-manifold with genus 1.
